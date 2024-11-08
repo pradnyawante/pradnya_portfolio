@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #0a0101;
+    background-color: rgb(0, 252, 252);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+img {
+    border-radius: 50%;
+}

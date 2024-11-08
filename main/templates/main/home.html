@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pradnya's Portfolio</title>
+    <link rel="stylesheet" href="{% static 'static/main/styles.css' %}">
+    <script src="{% static 'static/main/script.js' %}"></script>
+</head>
+<body>
+
+    <form id="nameForm" method="POST" action="">
+        {% csrf_token %}
+        <!-- Hidden input to store the name received from the popup -->
+        <input type="hidden" id="nameInput" name="name">
+    
+
+    <script>
+        // JavaScript to show a popup when the page loads
+        window.onload = function() {
+            // Show a prompt to ask for the user's name
+            const name = prompt("Hello There... May I Know Your Name:");
+
+            // If a name is entered, set it to the hidden input field and submit the form
+            if (name) {
+                document.getElementById("nameInput").value = name;
+                alert("Thank you, " + name + "! You’ll be redirected shortly.");
+                document.getElementById("nameForm").submit();
+            }
+        };
+    </script>
+    </form>
+</body>
+</html>

@@ -1,0 +1,37 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pradnya's Portfolio</title>
+    <!-- <link rel="stylesheet" href="{% static 'main/styles.css' %}?v={{ timestamp }}"> -->
+    <link rel="stylesheet" href="{% static 'main/contact.css' %}?v={{ timestamp }}">
+    <link rel="stylesheet" href="{% static 'main/menu.css' %}?v={{ timestamp }}">
+    <script src="{% static 'main/script.js' %}"></script>
+</head>
+<body>
+<div class="navbar">
+    <div class="navbar-links">
+        <a href="{% url 'contact' %}"><b>Contact</b></a>
+        <a href="{% url 'projects' %}"><b>Projects</b></a>
+        <a href="{% url 'welcome' %}"><b>Home</b></a>
+    </div>
+    
+    <div class="navbar-images">
+        <a href="{% url 'contact' %}" >
+            <img src="{% static 'main/images/maillogo.png' %}" alt="Logo 1" class="nav-icon"></a>
+        <img src="{% static 'main/images/phonelogo.png' %}" alt="Logo 1" class="nav-icon">
+        <img src="{% static 'main/images/twitterLogo.jpg' %}" alt="Logo 1" class="nav-icon">
+        <a href="https://www.linkedin.com/in/pradnyawante/">
+            <img src="{% static 'main/images/linkedinmenu.png' %}" alt="Logo 1" class="nav-icon"></a>
+    </div>
+</div>
+<div class="main">
+    <p>You can reach me out at - </p>
+    <p><br> <a href="pradnyawante18@gmail.com">pradnyawante18@gmail.com</a> </br>
+        <br> <a href="https://www.linkedin.com/in/pradnyawante/">www.linkedin.com/in/pradnyawante</a> </br>
+    </p>
+</div>
+</body>
+</html>

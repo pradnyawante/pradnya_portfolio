@@ -1,0 +1,71 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pradnya's Portfolio</title>
+    <!-- <link rel="stylesheet" href="{% static 'main/styles.css' %}?v={{ timestamp }}"> -->
+    <link rel="stylesheet" href="{% static 'main/projects.css' %}?v={{ timestamp }}">
+    <link rel="stylesheet" href="{% static 'main/menu.css' %}?v={{ timestamp }}">
+    <script src="{% static 'main/script.js' %}"></script>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-links">
+            <a href="{% url 'contact' %}"><b>Contact</b></a>
+            <a href="{% url 'projects' %}"><b>Projects</b></a>
+            <a href="{% url 'welcome' %}"><b>Home</b></a>
+        </div>
+    
+        <div class="navbar-images">
+            <!-- Insert your images here -->
+            <a href="{% url 'contact' %}" >
+            <img src="{% static 'main/images/maillogo.png' %}" alt="Logo 1" class="nav-icon">
+        </a>
+            <img src="{% static 'main/images/phonelogo.png' %}" alt="Logo 1" class="nav-icon">
+            <img src="{% static 'main/images/twitterLogo.jpg' %}" alt="Logo 1" class="nav-icon">
+            <a href="https://www.linkedin.com/in/pradnyawante/">
+            <img src="{% static 'main/images/linkedinmenu.png' %}" alt="Logo 1" class="nav-icon">
+        </a>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Projects/Links</h1>
+        <div class="grid">
+            <div class="grid-item github">
+                <p>Github</p>
+                <a href="https://github.com/pradnyawante" target="_blank">
+                <img src="{% static 'main/images/githublogo.png' %}" alt="Project 1">
+                
+            </a>
+            </div>
+            <div class="grid-item">
+                <p>Leetcode</p>
+                <a href="https://leetcode.com/u/pradnyawante/" target="_blank">
+                <img src="{% static 'main/images/LeetCodeLogo.png' %}" alt="Project 2">
+            </a>
+            </div>
+            <div class="grid-item">
+                <p>Hackerrank</p>
+                <a href="https://www.hackerrank.com/profile/codewithpradnya" target="_blank">
+                <img src="{% static 'main/images/HackerRank_logo.png' %}" alt="Project 3">
+            </a>
+            </div>
+            <div class="grid-item">
+                <p>LinkedIn</p>
+                <a href="https://www.linkedin.com/in/pradnyawante/" target="_blank">
+                <img src="{% static 'main/images/LinkedIn_logo.png' %}" alt="Project 4">
+            </a>
+            </div>
+            <!-- Add more grid items as needed -->
+        </div>
+    </div>
+
+    <!-- <div class="main">
+        <h1>Projects Page</h1>
+        <p>Thank you for visiting!</p>
+    </div> -->
+</body>
+</html>
