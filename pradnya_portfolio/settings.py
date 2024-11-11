@@ -29,7 +29,7 @@ DEBUG = True
 
 
 # ALLOWED_HOSTS = ['127.0.0.1','pradnya-portfolio.onrender.com']
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'pradnya_portfolio.onrender.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'pradnya-portfolio.onrender.com']
 # Application definition
 
 INSTALLED_APPS = [
