@@ -25,7 +25,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECRET_KEY = os.environ.get('django-insecure-zrj#!6f$08bfr%zq@vobyj6%4f*h225t&62)ckl#)yyaj1(9ln')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 
 # ALLOWED_HOSTS = ['127.0.0.1','pradnya-portfolio.onrender.com']
