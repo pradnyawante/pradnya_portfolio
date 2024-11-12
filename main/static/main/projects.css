@@ -42,7 +42,7 @@ body {
 } */
 
 .grid-item img {
-    width: 100%; /* Responsive images */
+    width: 50px; /* Responsive images */
     height: 50px;
  /* Maintains aspect ratio */
 }
