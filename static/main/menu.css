@@ -9,17 +9,18 @@
     z-index: 1000;
   }
   .navbar-links a {
+    float: right;
     color: #000000;
     font-size: 20px;
     padding: 14px 16px;
     margin-top: 1%;
     margin-bottom: 3%;
-    display: flex;
     /* width: 30%; */
     text-decoration: none;
   }
 
   .navbar-images {
+    align-items: start;
     width: 20%; /* Set the width of the icon images */
     height: 20%;
     display: flex;
@@ -33,6 +34,7 @@
 .nav-icon {
     width: 35px; /* Set the width of the icon images */
     height: 35px;
+    align-content: center;
     border-radius: 50%;
 }
   
@@ -41,6 +43,12 @@
     /* background: #ddd; */
     color: rgb(255, 255, 255);
   }
+
+.nav-links a.active {
+  color: #ff0000; /* Change this to your preferred color for the active tab */
+  font-weight: bold;
+  border-bottom: 2px solid #FFD700; /* Optional: Adds a bottom border for the active tab */
+}
   
   /* Main content */
 .main {
