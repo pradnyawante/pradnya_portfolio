@@ -103,6 +103,7 @@ img {
 
 
 .projects-section {
+    display: list-item;
     align-content: center;
     background-color: #ffffff;
 }
