@@ -9,13 +9,14 @@
     z-index: 1000;
   }
   .navbar-links a {
-    float: right;
     color: #000000;
     font-size: 20px;
     padding: 14px 16px;
     margin-top: 1%;
     margin-bottom: 3%;
     width: 50%;
+    display: contents;
+    display: none;
     /* width: 30%; */
     text-decoration: none;
   }
