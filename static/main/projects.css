@@ -2,31 +2,34 @@ body {
     font-family: Arial, sans-serif;
     /* background: linear-gradient(to right, #ff7e5f, #feb47b); */
     color: #0a0101;
-    text-align: center;
+    /* text-align: center; */
     min-height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex-direction: column; */
     margin: 0;
 }
 
 .container {
     padding: 10px; /* Add padding to the container */
+    min-height: fit-content;
+    display: list-item;
+    max-width: 100%;
 }
 
-.grid {
-    /* display: grid; Enables grid layout */
+/* .grid {
+    display: grid;
     display: list-item;
     height: 300px;
     width: 100%;
-    /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
-    gap: 20px; /* Space between grid items */
-}
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px; Space between grid items
+} */
 
 .grid-item {
     background-color: #ffffff; /* Light background for grid items */
-    border: 1px solid #ccc; /* Border around grid items */
+    border: 1px solid #ff0000; /* Border around grid items */
     width: 100%;
     border-radius: 8px; /* Optional: rounded corners */
     overflow: hidden; /* Hides overflow content */ /* Centers text */
