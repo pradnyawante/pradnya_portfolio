@@ -11,9 +11,13 @@
   .navbar-links a {
     color: #000000;
     font-size: 20px;
-    padding: 14px 16px;
-    margin-top: 1%;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    /* padding: 14px 16px; */
+    /* margin-top: 5%;
     margin-bottom: 3%;
+    margin-right: 5%; */
     width: 50%;
     display: contents;
     /* width: 30%; */
