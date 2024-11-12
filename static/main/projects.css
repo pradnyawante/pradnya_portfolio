@@ -5,6 +5,7 @@ body {
     /* text-align: center; */
     min-height: 100vh;
     display: flex;
+    max-width: 100%;
     /* justify-content: center; */
     /* align-items: center; */
     /* flex-direction: column; */
@@ -29,7 +30,7 @@ body {
 
 .grid-item {
     background-color: #ffffff; /* Light background for grid items */
-    border: 1px solid #ff0000; /* Border around grid items */
+    border: 1px solid #000000; /* Border around grid items */
     width: 100%;
     border-radius: 8px; /* Optional: rounded corners */
     overflow: hidden; /* Hides overflow content */ /* Centers text */
