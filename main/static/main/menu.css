@@ -10,7 +10,7 @@
   z-index: 1000;
   }
   .navbar-links a {
-    display: block;
+    display: flex;
     color: #000000;
     font-size: 20px;
     align-content: right;
