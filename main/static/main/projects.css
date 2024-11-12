@@ -39,6 +39,6 @@ body {
 
 .grid-item img {
     max-width: 50%; /* Responsive images */
-    min-height: 50%;
+    height: 50px;
  /* Maintains aspect ratio */
 }
