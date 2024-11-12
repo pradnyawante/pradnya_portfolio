@@ -12,12 +12,6 @@
 </head>
 <body>
 <div class="navbar">
-    <div class="navbar-links">
-        <a href="{% url 'contact' %}"><b>Contact</b></a>
-        <a href="{% url 'projects' %}" ><b>Projects</b></a>
-        <a href="{% url 'welcome' %}" ><b>Home</b></a>
-    </div>
-
     <div class="navbar-images">
         <!-- Insert your images here -->
         <a href="{% url 'contact' %}" >
@@ -28,6 +22,12 @@
         <a href="https://www.linkedin.com/in/pradnyawante/">
         <img src="{% static 'main/images/linkedinmenu.png' %}" alt="Logo 1" class="nav-icon">
     </a>
+    </div>
+
+    <div class="navbar-links">
+        <a href="{% url 'contact' %}"><b>Contact</b></a>
+        <a href="{% url 'projects' %}" ><b>Projects</b></a>
+        <a href="{% url 'welcome' %}" ><b>Home</b></a>
     </div>
 </div>
 
