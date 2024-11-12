@@ -5,7 +5,7 @@ body {
     /* text-align: center; */
     min-height: 100vh;
     display: flex;
-    max-width: 100%;
+    width: 100%;
     /* justify-content: center; */
     /* align-items: center; */
     /* flex-direction: column; */
@@ -16,7 +16,7 @@ body {
     padding: 10px; /* Add padding to the container */
     min-height: fit-content;
     display: list-item;
-    max-width: 100%;
+    width: 100%;
 }
 
 /* .grid {
@@ -42,7 +42,7 @@ body {
 } */
 
 .grid-item img {
-    max-width: 100%; /* Responsive images */
+    width: 100%; /* Responsive images */
     height: 50px;
  /* Maintains aspect ratio */
 }
