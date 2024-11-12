@@ -19,20 +19,20 @@ form {
     width: 100%;
 }
 
-h1:hover {
+/* h1:hover {
     color: #3512f8;
     transition: color 0.3s ease;
     transform: scale(1.05);
     font-weight: bold;
     margin: 0;
-}
+} */
 
-h2:hover {
+/* h2:hover {
     color: #3512f8;
     transition: color 0.3s ease;
     transform: scale(1.05);
     font-weight:bold;
-}
+} */
 
 h3{
     font-size: 70%;
