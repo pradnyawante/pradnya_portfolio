@@ -10,11 +10,11 @@
   z-index: 1000;
   }
   .navbar-links a {
-    float: right;
     display: block;
     color: #000000;
     font-size: 20px;
-    text-align: center;
+    align-content: right;
+    align-items: right;
     padding: 14px 16px;
     margin-top: 1%;
     margin-bottom: 3%;
@@ -23,7 +23,8 @@
   }
 
   .navbar-images {
-    align-items: start;
+    align-items: left;
+    align-content: left;
     width: 20%; /* Set the width of the icon images */
     height: 20%;
     display: flex;
