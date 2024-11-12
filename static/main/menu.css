@@ -5,7 +5,7 @@
     top: 0; /* Position the navbar at the top of the page */
     width: 100%;
     display: flex;
-    height: auto; /* Full width */
+    height: fit-content; /* Full width */
     z-index: 1000;
   }
   .navbar-links a {
@@ -14,6 +14,7 @@
     font-size: 20px;
     padding: 14px 16px;
     margin-top: 1%;
+    margin-left: 50%;
     margin-bottom: 3%;
     /* width: 30%; */
     text-decoration: none;
