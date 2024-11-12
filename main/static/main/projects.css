@@ -30,9 +30,9 @@ body {
     padding: 10px; /* Padding inside grid items */
 }
 
-img {
+/* img {
     border-radius: 50%;
-}
+} */
 
 .grid-item img {
     max-width: 100%; /* Responsive images */

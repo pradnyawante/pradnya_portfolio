@@ -52,6 +52,10 @@
 }
   
   /* Main content */
-  .main {
-    width: 100%; /* Add a top margin to avoid content overlay */
-  }
+.main {
+  width: 100%; /* Add a top margin to avoid content overlay */
+}
+
+img {
+  border-radius: 50%;
+}
