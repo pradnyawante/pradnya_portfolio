@@ -112,7 +112,7 @@ img {
 
 .contact-section {
     height: auto;
-    margin: auto;
+    margin-block-start: auto;
     background-color: #ffffff;
     margin-left: 0%;
 }

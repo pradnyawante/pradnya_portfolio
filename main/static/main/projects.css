@@ -20,16 +20,16 @@ body {
     display: list-item;
     height: 300px;
     width: 100%;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive columns */
+    /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
     gap: 20px; /* Space between grid items */
 }
 
 .grid-item {
     background-color: #ffffff; /* Light background for grid items */
     border: 1px solid #ccc; /* Border around grid items */
+    width: 100%;
     border-radius: 8px; /* Optional: rounded corners */
-    overflow: hidden; /* Hides overflow content */
-    text-align: center; /* Centers text */
+    overflow: hidden; /* Hides overflow content */ /* Centers text */
     padding: 10px; /* Padding inside grid items */
 }
 
