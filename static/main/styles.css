@@ -104,15 +104,22 @@ img {
 
 .projects-section {
     display: list-item;
-    height: 30px;
+    /* height: 30px; */
     width: 100%;
-    align-content: center;
+    /* align-content: center; */
     background-color: #ffffff;
 }
 
 .contact-section {
+    height: auto;
+    margin: auto;
     background-color: #ffffff;
     margin-left: 0%;
 }
 
+.grid-item img {
+    max-width: 100%; /* Responsive images */
+    height: 50px;
+ /* Maintains aspect ratio */
+}
 

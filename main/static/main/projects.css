@@ -38,7 +38,7 @@ body {
 } */
 
 .grid-item img {
-    max-width: 50%; /* Responsive images */
+    max-width: 100%; /* Responsive images */
     height: 50px;
  /* Maintains aspect ratio */
 }
