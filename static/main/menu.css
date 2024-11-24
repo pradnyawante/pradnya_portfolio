@@ -29,10 +29,11 @@
   gap: 25px; /* Space between images */
 }
 
-/* .nav-links{
+.nav-links{
   /* width: 30%; */
-  /* row-gap: 30px; */
-/* } */ 
+  row-gap: 30px;
+  margin-left: 20px;
+}
 
 .linkname{
   display: flex;
