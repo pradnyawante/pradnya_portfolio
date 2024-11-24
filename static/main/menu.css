@@ -12,17 +12,9 @@
     color: #000000;
     font-size: 20px;
     width: 50%;
-    /* align-content: right;
-    align-items: end; */
     display: contents;
     /* width: 30%; */
     text-decoration: none;
-    flex-grow: 1;
-  }
-
-  .navbar-links {
-    display: flex;
-    gap: 20px;
   }
 
   .navbar-images {
@@ -37,7 +29,13 @@
     border-radius: 50%;
     gap: 25px; /* Space between images */
 }
-
+.nav-links{
+  width: 50%;
+  row-gap: 30px;
+  margin-top: 10%;
+  margin-bottom: 3%;
+  margin-right: 5%;
+}
 .nav-icon {
     width: 35px; /* Set the width of the icon images */
     height: 35px;
@@ -50,6 +48,12 @@
     /* background: #ddd; */
     color: rgb(255, 255, 255);
   }
+
+.nav-links a.active {
+  color: #ff0000; /* Change this to your preferred color for the active tab */
+  font-weight: bold;
+  border-bottom: 2px solid #FFD700; /* Optional: Adds a bottom border for the active tab */
+}
   
   /* Main content */
 .main {
