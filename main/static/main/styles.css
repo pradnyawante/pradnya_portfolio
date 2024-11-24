@@ -14,6 +14,7 @@ form {
     }
 }
 
+
 h3{
     font-size: 70%;
     font-weight: lighter;
@@ -40,15 +41,16 @@ img {
     border-radius: 50%;
 }
 
-/* .center {
-    display: block;
+.center {
+    /* display: block; */
     margin-left: auto;
     margin-right: auto;
-} */
+}
 
 
 .container {
     margin-top: 25%;
+    position: relative;
     z-index: 800;
 }
 

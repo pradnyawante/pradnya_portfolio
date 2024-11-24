@@ -2,18 +2,9 @@
   overflow: hidden;
     /* background-color: #646464fd; */
     /*position: fixed;  Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
   width: 100%;
   display: flex;
   height: auto; /* Full width */
-  z-index: 1000;
-}
-.navbar-links a {
-  color: #000000;
-  font-size: 20px;
-  width: 70%;
-    /* display: contents; */
-    /* width: 30%; */
 }
 
 .navbar-images {
@@ -29,6 +20,21 @@
   gap: 25px; /* Space between images */
 }
 
+.nav-icon {
+  width: 35px; /* Set the width of the icon images */
+  height: 35px;
+  align-content: center;
+  border-radius: 50%;
+}
+
+.navbar-links a {
+  color: #000000;
+  font-size: 20px;
+  width: 70%;
+  display: flex;
+    /* display: contents; */
+    /* width: 30%; */
+}
 .nav-links{
   /* width: 30%; */
   row-gap: 30px;
@@ -39,24 +45,13 @@
   display: flex;
   row-gap: 30px;
 }
-.nav-icon {
-    width: 35px; /* Set the width of the icon images */
-    height: 35px;
-    align-content: center;
-    border-radius: 50%;
-}
+
   
   /* Change background on mouse-over */
   .navbar-links a:hover {
     /* background: #ddd; */
     color: rgb(255, 255, 255);
   }
-
-.nav-links a.active {
-  color: #ff0000; /* Change this to your preferred color for the active tab */
-  font-weight: bold;
-  border-bottom: 2px solid #FFD700; /* Optional: Adds a bottom border for the active tab */
-}
   
   /* Main content */
 .main {
