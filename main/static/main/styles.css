@@ -14,21 +14,6 @@ form {
     }
 }
 
-/* h1:hover {
-    color: #3512f8;
-    transition: color 0.3s ease;
-    transform: scale(1.05);
-    font-weight: bold;
-    margin: 0;
-} */
-
-/* h2:hover {
-    color: #3512f8;
-    transition: color 0.3s ease;
-    transform: scale(1.05);
-    font-weight:bold;
-} */
-
 h3{
     font-size: 70%;
     font-weight: lighter;
@@ -55,16 +40,15 @@ img {
     border-radius: 50%;
 }
 
-.center {
+/* .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
+} */
 
 
 .container {
     margin-top: 25%;
-    position: relative;
     z-index: 800;
 }
 
