@@ -12,9 +12,10 @@
     color: #000000;
     font-size: 20px;
     width: 100%;
-    align-content: right;
-    align-items: end;
-    display: contents;
+    display: flex;
+    /* align-content: right;
+    align-items: end; */
+    /* display: contents; */
     /* width: 30%; */
     text-decoration: none;
   }
@@ -31,6 +32,7 @@
     border-radius: 50%;
     gap: 25px; /* Space between images */
 }
+
 .nav-icon {
     width: 35px; /* Set the width of the icon images */
     height: 35px;
