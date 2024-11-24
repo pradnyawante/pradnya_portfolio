@@ -1,7 +1,7 @@
 .navbar {
     overflow: hidden;
     /* background-color: #646464fd; */
-    position: fixed; /* Set the navbar to fixed position */
+    /*position: fixed;  Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%;
     display: flex;
@@ -11,7 +11,9 @@
   .navbar-links a {
     color: #000000;
     font-size: 20px;
-    width: 50%;
+    width: 100%;
+    align-content: right;
+    align-items: end;
     display: contents;
     /* width: 30%; */
     text-decoration: none;
