@@ -12,12 +12,17 @@
     color: #000000;
     font-size: 20px;
     width: 50%;
-    display: flex;
     /* align-content: right;
     align-items: end; */
     /* display: contents; */
     /* width: 30%; */
     text-decoration: none;
+    flex-grow: 1;
+  }
+
+  .navbar-links {
+    display: flex;
+    gap: 20px;
   }
 
   .navbar-images {
