@@ -30,7 +30,6 @@
 .navbar-links a {
   color: #000000;
   font-size: 20px;
-  width: 50%;
     /* display: contents; */
     /* width: 30%; */
 }
@@ -38,6 +37,7 @@
   /* width: 30%; */
   row-gap: 30px;
   display: flex;
+  width: 50%;
 }
 
 .linkname{
