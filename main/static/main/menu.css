@@ -11,7 +11,8 @@
   .navbar-links a {
     color: #000000;
     font-size: 20px;
-    width: 100%;
+    width: 50%;
+    gap: 10px;
     display: flex;
     /* align-content: right;
     align-items: end; */
@@ -45,12 +46,6 @@
     /* background: #ddd; */
     color: rgb(255, 255, 255);
   }
-
-.nav-links a.active {
-  color: #ff0000; /* Change this to your preferred color for the active tab */
-  font-weight: bold;
-  border-bottom: 2px solid #FFD700; /* Optional: Adds a bottom border for the active tab */
-}
   
   /* Main content */
 .main {
