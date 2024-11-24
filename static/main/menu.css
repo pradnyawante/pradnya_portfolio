@@ -31,12 +31,6 @@
     border-radius: 50%;
     gap: 25px; /* Space between images */
 }
-.nav-links{
-  width: 50%;
-  margin-top: 10%;
-  margin-bottom: 3%;
-  margin-right: 5%;
-}
 .nav-icon {
     width: 35px; /* Set the width of the icon images */
     height: 35px;
