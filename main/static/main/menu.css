@@ -14,7 +14,7 @@
     width: 50%;
     /* align-content: right;
     align-items: end; */
-    /* display: contents; */
+    display: contents;
     /* width: 30%; */
     text-decoration: none;
     flex-grow: 1;
